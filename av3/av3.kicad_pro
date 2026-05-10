@@ -633,6 +633,18 @@
     [
       "ed344d39-63c7-463e-a8dd-63e00df6567a",
       "microcontrolador"
+    ],
+    [
+      "7bacae05-5a05-4b9f-a119-58e288c5bd7d",
+      "reles"
+    ],
+    [
+      "1d5774d5-0eeb-4b05-9671-8ec7d6ad2941",
+      "modulo_entrada"
+    ],
+    [
+      "54811916-bf63-4987-aab3-a945b9bb2a06",
+      "condicionamento_sinal"
     ]
   ],
   "text_variables": {}
