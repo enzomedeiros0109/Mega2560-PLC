@@ -7625,7 +7625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.37 56.1848 0)
 			(effects
 				(font
@@ -8069,7 +8069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.83 46.0248 0)
 			(effects
 				(font
@@ -8205,7 +8205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 252.4252 109.22 0)
 			(effects
 				(font
@@ -8342,7 +8342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 44.45 46.0248 0)
 			(effects
 				(font
@@ -8545,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 279.4 89.2048 0)
 			(effects
 				(font
@@ -8938,7 +8938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 130.5052 60.96 0)
 			(effects
 				(font
@@ -9215,7 +9215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 308.61 120.9548 0)
 			(effects
 				(font
@@ -9284,7 +9284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 293.0652 109.22 0)
 			(effects
 				(font
@@ -9351,7 +9351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 139.7 81.5848 0)
 			(effects
 				(font
@@ -9553,7 +9553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
 			(at 36.83 21.59 0)
 			(effects
 				(font
@@ -9624,7 +9624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 308.61 113.3348 0)
 			(effects
 				(font
@@ -9830,7 +9830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 44.45 37.1348 0)
 			(effects
 				(font
@@ -9963,7 +9963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 231.14 95.5548 0)
 			(effects
 				(font
@@ -10175,7 +10175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 254.9652 74.93 0)
 			(effects
 				(font
@@ -10293,7 +10293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c674905-faed-43d6-ad26-8ddbaef959ec")
-		(property "Reference" "J1"
+		(property "Reference" "J17"
 			(at 313.69 143.5099 0)
 			(effects
 				(font
@@ -10371,7 +10371,7 @@
 		(instances
 			(project ""
 				(path "/a93ad2d2-2340-43ed-bd19-332540d0678c/ed344d39-63c7-463e-a8dd-63e00df6567a"
-					(reference "J1")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -10535,7 +10535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.99 56.1848 0)
 			(effects
 				(font
@@ -10605,7 +10605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 296.8752 74.93 0)
 			(effects
 				(font
@@ -10876,7 +10876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -11732,7 +11732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 139.7 73.9648 0)
 			(effects
 				(font
@@ -11799,7 +11799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 36.83 37.1348 0)
 			(effects
 				(font
@@ -12644,7 +12644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 223.52 133.6548 0)
 			(effects
 				(font
