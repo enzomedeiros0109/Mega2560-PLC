@@ -2037,15 +2037,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 173.99 93.98 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04c1862d-696d-4c49-a8af-46f3019e1c3d")
 		(property "Reference" "J4"
-			(at 176.53 92.7099 0)
+			(at 176.53 95.2501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +2054,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 176.53 95.2499 0)
+			(at 176.53 92.7101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,15 +2346,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 173.99 49.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a5a761a-1e72-47a6-8b20-d82f2f40d981")
 		(property "Reference" "J2"
-			(at 176.53 48.2599 0)
+			(at 176.53 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 176.53 50.7999 0)
+			(at 176.53 48.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,15 +2882,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 97.79 93.98 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98cff8d7-0c7a-4d59-8dc3-6a2b2949ed58")
 		(property "Reference" "J3"
-			(at 100.33 92.7099 0)
+			(at 100.33 95.2501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +2899,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 100.33 95.2499 0)
+			(at 100.33 92.7101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,15 +3384,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 97.79 48.26 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b8d134cd-f260-45d9-b307-af281ee7b2f7")
 		(property "Reference" "J1"
-			(at 100.33 46.9899 0)
+			(at 100.33 49.5301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +3401,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 100.33 49.5299 0)
+			(at 100.33 46.9901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
