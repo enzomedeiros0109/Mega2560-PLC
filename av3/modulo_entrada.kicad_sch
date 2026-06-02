@@ -1193,7 +1193,7 @@
 	)
 	(text "CALCULAR RESISTÊNCIAS"
 		(exclude_from_sim no)
-		(at 98.806 74.422 0)
+		(at 99.822 123.952 0)
 		(effects
 			(font
 				(size 3.81 3.81)

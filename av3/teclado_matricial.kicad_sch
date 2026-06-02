@@ -789,7 +789,7 @@
 		)
 		(uuid "fcceee1c-226c-41d2-a19c-fe5123c282bb")
 	)
-	(global_label "C3"
+	(global_label "C2"
 		(shape input)
 		(at 97.79 58.42 90)
 		(fields_autoplaced yes)
@@ -811,7 +811,7 @@
 			)
 		)
 	)
-	(global_label "C4"
+	(global_label "C1"
 		(shape input)
 		(at 113.03 58.42 90)
 		(fields_autoplaced yes)
@@ -899,7 +899,7 @@
 			)
 		)
 	)
-	(global_label "C1"
+	(global_label "C4"
 		(shape input)
 		(at 67.31 58.42 90)
 		(fields_autoplaced yes)
@@ -943,7 +943,7 @@
 			)
 		)
 	)
-	(global_label "C2"
+	(global_label "C3"
 		(shape input)
 		(at 82.55 58.42 90)
 		(fields_autoplaced yes)
