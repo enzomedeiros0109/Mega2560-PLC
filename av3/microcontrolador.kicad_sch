@@ -5539,7 +5539,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5G"
+		(symbol "Switch:SW_Omron_B3FS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5559,7 +5559,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5G"
+			(property "Value" "SW_Omron_B3FS"
 				(at 0 -1.524 0)
 				(effects
 					(font
@@ -5576,7 +5576,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -5585,7 +5585,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5603,7 +5603,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
+			(property "ki_fp_filters" "SW*Omron*B3FS*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5612,7 +5612,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_MEC_5G_0_1"
+			(symbol "SW_Omron_B3FS_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -5662,7 +5662,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5680,28 +5680,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "A"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5709,25 +5688,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6221,12 +6181,6 @@
 		(uuid "0cbe6550-154f-44a7-95cc-8acba39660db")
 	)
 	(junction
-		(at 121.92 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14f4c210-d0c4-4240-bf79-f0b56081da80")
-	)
-	(junction
 		(at 132.08 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6369,6 +6323,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f399eca8-25bd-445d-907a-b3cac6e6f731")
+	)
+	(junction
+		(at 121.92 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffe4b127-3342-41e6-81a6-1858fbf88a45")
 	)
 	(no_connect
 		(at 146.05 190.5)
@@ -6930,16 +6890,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 107.95) (xy 215.9 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87eae450-92a5-4d85-95f3-b9f19f113b2d")
-	)
-	(wire
-		(pts
 			(xy 248.92 152.4) (xy 248.92 142.24)
 		)
 		(stroke
@@ -6967,6 +6917,16 @@
 			(type default)
 		)
 		(uuid "9a35e409-f02c-446b-af11-6df6af8418bf")
+	)
+	(wire
+		(pts
+			(xy 212.09 110.49) (xy 215.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd0acfc-dc26-48f2-af1f-d967e2f07803")
 	)
 	(wire
 		(pts
@@ -7358,7 +7318,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 104.14 86.36 180)
+		(at 104.14 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7368,7 +7328,7 @@
 		)
 		(uuid "358322a9-b627-4f6b-b273-bc5df588e016")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.5586 86.36 0)
+			(at 96.5586 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7494,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 104.14 96.52 180)
+		(at 104.14 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7544,7 +7504,7 @@
 		)
 		(uuid "64e82b18-d030-4f89-a707-68cc2e5f183e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.5586 96.52 0)
+			(at 96.5586 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8044,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 104.14 91.44 180)
+		(at 104.14 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8094,7 +8054,7 @@
 		)
 		(uuid "ea6d2382-716b-4ca0-ae9b-abc8fe7d06fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.7077 91.44 0)
+			(at 97.7077 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.9 67.818 90)
 			(effects
 				(font
@@ -9107,7 +9067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 252.4252 109.22 0)
 			(effects
 				(font
@@ -9177,7 +9137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 237.998 109.22 90)
 			(effects
 				(font
@@ -9314,7 +9274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 202.692 146.05 90)
 			(effects
 				(font
@@ -10117,7 +10077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 308.61 120.9548 0)
 			(effects
 				(font
@@ -10186,7 +10146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 293.0652 109.22 0)
 			(effects
 				(font
@@ -10526,7 +10486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 308.61 113.3348 0)
 			(effects
 				(font
@@ -10908,83 +10868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 121.92 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74f7ad8e-2356-4855-971c-e1c0ab535b7a")
-		(property "Reference" "SW1"
-			(at 123.19 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 123.19 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 116.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 121.92 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "0f3cd57e-aa79-41e0-bb38-301aa3153fe5")
-		)
-		(pin "3"
-			(uuid "ad617968-8f6a-49d2-9b0b-f06cdf9eefb0")
-		)
-		(pin "2"
-			(uuid "71998358-c940-43bf-a5ae-5378f10dae1c")
-		)
-		(pin "1"
-			(uuid "a8777e88-117c-4ce8-af77-0c8f8a0b927a")
-		)
-		(instances
-			(project "av3"
-				(path "/a93ad2d2-2340-43ed-bd19-332540d0678c/ed344d39-63c7-463e-a8dd-63e00df6567a"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 254 74.93 0)
 		(unit 1)
@@ -11180,6 +11063,77 @@
 			(project "av3"
 				(path "/a93ad2d2-2340-43ed-bd19-332540d0678c/ed344d39-63c7-463e-a8dd-63e00df6567a"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 121.92 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b29c80e-0d0c-47e1-aa7f-c830cc243286")
+		(property "Reference" "SW1"
+			(at 123.19 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 123.19 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2accd572-e985-46b2-b294-a41366734e21")
+		)
+		(pin "2"
+			(uuid "22508e8c-d9e1-47b2-a1b5-e89051450b78")
+		)
+		(instances
+			(project "av3"
+				(path "/a93ad2d2-2340-43ed-bd19-332540d0678c/ed344d39-63c7-463e-a8dd-63e00df6567a"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -11577,7 +11531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 120.142 57.15 90)
 			(effects
 				(font
@@ -11778,7 +11732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 109.22 91.44 0)
 			(effects
 				(font
@@ -12180,7 +12134,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 212.09 100.33 0)
+		(at 212.09 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12189,7 +12143,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6f49720-e2b4-4ea3-89e4-203937d6c2b8")
 		(property "Reference" "#PWR029"
-			(at 212.09 104.14 0)
+			(at 212.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12198,7 +12152,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 212.09 95.25 0)
+			(at 212.09 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12206,7 +12160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 100.33 0)
+			(at 212.09 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12215,7 +12169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 100.33 0)
+			(at 212.09 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12224,7 +12178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 212.09 100.33 0)
+			(at 212.09 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13191,7 +13145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 235.712 143.51 90)
 			(effects
 				(font
@@ -13723,7 +13677,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 104.14 0)
+		(at 212.09 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13731,15 +13685,6 @@
 		(dnp no)
 		(uuid "fc88c67c-d54f-4376-9891-b1255b7c1085")
 		(property "Reference" "R22"
-			(at 213.614 102.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
 			(at 213.614 104.648 0)
 			(effects
 				(font
@@ -13748,8 +13693,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 210.312 104.14 90)
+		(property "Value" "10K"
+			(at 213.614 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 210.312 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13758,7 +13712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 104.14 0)
+			(at 212.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13767,7 +13721,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 104.14 0)
+			(at 212.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

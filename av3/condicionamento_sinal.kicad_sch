@@ -3487,7 +3487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 97.79 0)
 			(effects
 				(font
@@ -3557,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 121.92 0)
 			(effects
 				(font
@@ -3696,7 +3696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 144.78 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 73.66 0)
 			(effects
 				(font
