@@ -10,7 +10,7 @@
 
 Este projeto consiste no design de uma Placa de Circuito Impresso (PCB) voltada para aplicações de controle, automação e desenvolvimento. A placa integra diversas interfaces de entrada, saída e comunicação em um único hardware, tornando-a ideal para controle de processos industriais, automação residencial ou projetos acadêmicos avançados.
 
-## Principais Recursos (Features)
+## Principais Recursos
 
 Essa placa foi o projeto final da cadeira de Construção de Dispositivos Digitais do curso de Engenharia da Computação. Ela contém:
 
