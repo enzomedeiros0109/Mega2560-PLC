@@ -1,10 +1,10 @@
 # Placa de Circuito Impresso
 
-![Esquemático da Placa de Circuito Impresso](assets/schematic_view.jpeg)
+![Esquemático da Placa de Circuito Impresso](assets/PCI.png)
 
-![Visualização 3D da parte superior da PCB](assets/top_view.jpeg)
+![Visualização 3D da parte superior da PCB](assets/top.jpeg)
 
-![Visualização 3D da parte inferior da PCB](assets/bottom_view.jpeg)
+![Visualização 3D da parte inferior da PCB](assets/bottom.jpeg)
 
 ## Descrição
 
