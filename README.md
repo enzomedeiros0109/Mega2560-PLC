@@ -2,9 +2,9 @@
 
 ![Esquemático da Placa de Circuito Impresso](assets/PCI.png)
 
-![Visualização 3D da parte superior da PCB](assets/top.jpeg)
+![Visualização 3D da parte superior da PCB](assets/top.png)
 
-![Visualização 3D da parte inferior da PCB](assets/bottom.jpeg)
+![Visualização 3D da parte inferior da PCB](assets/bottom.png)
 
 ## Descrição
 
