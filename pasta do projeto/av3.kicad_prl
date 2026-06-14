@@ -16,22 +16,6 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-<<<<<<< HEAD
-      "zones": 1.0
-    },
-    "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
-      "tracks": true,
-      "vias": true,
-      "zones": true
-=======
       "zones": 0.3700000047683716
     },
     "selection_filter": {
@@ -46,7 +30,6 @@
       "tracks": false,
       "vias": true,
       "zones": false
->>>>>>> b575002 (Corrige malha de ground, trilhas dos relés e tensão, adiciona furos na placa)
     },
     "visible_items": [
       "vias",
@@ -71,11 +54,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
-<<<<<<< HEAD
-    "zone_display_mode": 1
-=======
     "zone_display_mode": 0
->>>>>>> b575002 (Corrige malha de ground, trilhas dos relés e tensão, adiciona furos na placa)
   },
   "git": {
     "repo_type": "",
